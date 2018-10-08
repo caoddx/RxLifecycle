@@ -22,3 +22,10 @@ fun Disposable.bindTo(owner: LifecycleOwner): Disposable {
 
     return this
 }
+
+/**
+ * eliminate CheckReturnValue/CheckResult lint
+ */
+fun Disposable.bindForever(): Disposable {
+    return this
+}
